@@ -31,11 +31,17 @@ In today’s technology-driven world, every industry is leveraging the power of 
 ![image](https://github.com/Lutheeshgoparapu/AI-ENABLED-HEALTHCARE-CHATBOT/assets/94154531/1414547c-fbec-4e32-9834-9e4034d960e5)
 
 AI chatbots (aka conversational AI chatbots) are similar to chatbots, but only a more advanced version powered by artificial intelligence. Most AI chatbots today come with Natural Language Processing support which helps them understand the context, solve queries better and learn while doing all this.
-You should already have an understanding by now! But here’s a more clear explanation. Consider John, a user visiting a website looking for some information. The AI chatbot pops up on the right side corner of the screen and welcomes John.
+
+You should already have an understanding by now! But here’s a more clear explanation. Consider John, a user visiting a website looking for some information. The AI chatbot pops up on the right side corner of the screen and welcomes.
+
 Now, John types his query on the space provided. The AI chatbot on receiving the query starts analysing what it is. Based on the previous set of data and questions it has already received, the AI chatbot makes a call on what to respond to John’s query. The answer is usually what the AI chatbot thinks is right based on its previous learning. With the combination of natural language processing & artificial intelligence, AI chatbots can seamlessly answer customer queries over a period of time.
+
 Like we said earlier, AI chatbots learn continuously to get better at what they do! So, that’s how AI chatbots work!
+
 Chatbots can provide personalized health information to patients, helping them understand their conditions, medications, and treatment plans. They can offer ongoing support, reminders for medication, and lifestyle recommendations to encourage healthy habits. Chatbots can help users assess their symptoms and provide initial guidance on whether they should seek medical attention, self-manage at home, or consult with a healthcare professional. 
+
 AI chatbots can assist in monitoring patients with chronic conditions by collecting and analyzing relevant health data, providing insights to both patients and healthcare providers. In emergency situations, AI chatbots can assist in providing immediate first aid guidance, helping users take appropriate actions while waiting for professional medical assistance. The successful implementation of AI-enabled healthcare chatbots requires collaboration between technology developers, healthcare professionals, and regulatory bodies to ensure ethical and secure use of these tools in the healthcare ecosystem.
+
 ## METHODOLOGY:
 ![image](https://github.com/Lutheeshgoparapu/AI-ENABLED-HEALTHCARE-CHATBOT/assets/94154531/e046fd2d-e3cc-43d0-bcd9-51a059fbf525)
 ## SYSTEM ARCHITECTURE:
