@@ -28,7 +28,9 @@ In today’s technology-driven world, every industry is leveraging the power of 
 ![image](https://github.com/Lutheeshgoparapu/AI-ENABLED-HEALTHCARE-CHATBOT/assets/94154531/aae451e5-f49d-4209-aec7-6e96bf32eef5)
 
 ## SCOPE OF THE PROJECT:
-![image](https://github.com/Lutheeshgoparapu/AI-ENABLED-HEALTHCARE-CHATBOT/assets/94154531/1414547c-fbec-4e32-9834-9e4034d960e5)
+![image](https://github.com/Lutheeshgoparapu/AI-ENABLED-HEALTHCARE-CHATBOT/assets/94154531/770840df-33a6-47e3-927c-04b871e051e7)
+
+
 
 AI chatbots (aka conversational AI chatbots) are similar to chatbots, but only a more advanced version powered by artificial intelligence. Most AI chatbots today come with Natural Language Processing support which helps them understand the context, solve queries better and learn while doing all this.
 
@@ -43,11 +45,26 @@ Chatbots can provide personalized health information to patients, helping them u
 AI chatbots can assist in monitoring patients with chronic conditions by collecting and analyzing relevant health data, providing insights to both patients and healthcare providers. In emergency situations, AI chatbots can assist in providing immediate first aid guidance, helping users take appropriate actions while waiting for professional medical assistance. The successful implementation of AI-enabled healthcare chatbots requires collaboration between technology developers, healthcare professionals, and regulatory bodies to ensure ethical and secure use of these tools in the healthcare ecosystem.
 
 ## METHODOLOGY:
-![image](https://github.com/Lutheeshgoparapu/AI-ENABLED-HEALTHCARE-CHATBOT/assets/94154531/e046fd2d-e3cc-43d0-bcd9-51a059fbf525)
+![image](https://github.com/Lutheeshgoparapu/AI-ENABLED-HEALTHCARE-CHATBOT/assets/94154531/3594e9c2-6b53-4e48-a42f-59e125e5aa01)
+
 ## SYSTEM ARCHITECTURE:
-![image](https://github.com/Lutheeshgoparapu/AI-ENABLED-HEALTHCARE-CHATBOT/assets/94154531/64d7acd9-6f25-4743-8a83-a429bd66ace0)
+![image](https://github.com/Lutheeshgoparapu/AI-ENABLED-HEALTHCARE-CHATBOT/assets/94154531/555ee1e8-5b3d-4134-9d82-99af0d7a708a)
+
+## FLOW CHART:
+![image](https://github.com/Lutheeshgoparapu/AI-ENABLED-HEALTHCARE-CHATBOT/assets/94154531/a113531f-ff09-4cd8-a7c2-29d5fff554b1)
+
 
 ## IMPLEMENTATION:
+This Flask web application predicts diseases based on user-provided symptoms.
+
+1.	The steps include importing libraries, configuring a SQLite database, and setting a secret key for sessions. A user model is defined with a token-generating function. 
+2.	Routes are created for different pages, and templates are rendered using Jinja2. 
+3.	User authentication involves generating a session token. 
+4.	Symptom and disease prediction functions use machine learning models. 
+5.	The /ask route collects user information through a chat-like interaction.
+6.	 External info is retrieved using the DuckDuckGo API. 
+7.	To run, install dependencies, set up a virtual environment, and provide the required machine learning model and dataset. Finally, run the Flask app on port 3000.
+
 ```
 import random
 from flask import jsonify
