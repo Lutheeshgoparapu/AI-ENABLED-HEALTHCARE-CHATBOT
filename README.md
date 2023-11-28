@@ -32,9 +32,9 @@ In today’s technology-driven world, every industry is leveraging the power of 
 
 AI chatbots (aka conversational AI chatbots) are similar to chatbots, but only a more advanced version powered by artificial intelligence. Most AI chatbots today come with Natural Language Processing support which helps them understand the context, solve queries better and learn while doing all this.
 
-You should already have an understanding by now! But here’s a more clear explanation. Consider John, a user visiting a website looking for some information. The AI chatbot pops up on the right side corner of the screen and welcomes.
+You should already have an understanding by now! But here’s a more clear explanation. Consider user, a user visiting a website looking for some information. The AI chatbot pops up on the right side corner of the screen and welcomes.
 
-Now, John types his query on the space provided. The AI chatbot on receiving the query starts analysing what it is. Based on the previous set of data and questions it has already received, the AI chatbot makes a call on what to respond to John’s query. The answer is usually what the AI chatbot thinks is right based on its previous learning. With the combination of natural language processing & artificial intelligence, AI chatbots can seamlessly answer customer queries over a period of time.
+Now, user types his query on the space provided. The AI chatbot on receiving the query starts analysing what it is. Based on the previous set of data and questions it has already received, the AI chatbot makes a call on what to respond to user’s query. The answer is usually what the AI chatbot thinks is right based on its previous learning. With the combination of natural language processing & artificial intelligence, AI chatbots can seamlessly answer customer queries over a period of time.
 
 Like we said earlier, AI chatbots learn continuously to get better at what they do! So, that’s how AI chatbots work!
 
