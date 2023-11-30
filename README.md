@@ -65,6 +65,48 @@ This Flask web application predicts diseases based on user-provided symptoms.
 5.	The /ask route collects user information through a chat-like interaction.
 6.	 External info is retrieved using the DuckDuckGo API. 
 7.	To run, install dependencies, set up a virtual environment, and provide the required machine learning model and dataset. Finally, run the Flask app on port 3000.
+## OUTPUT AND DISCUSSION
+![image](https://github.com/Lutheeshgoparapu/AI-ENABLED-HEALTHCARE-CHATBOT/assets/94154531/8623efd4-b1ab-4df1-b2c6-8ea026bbf65d)
+
+ 
+Figure 05 Web page
+    The web page will be opened after implementation of code
+    
+ ![image](https://github.com/Lutheeshgoparapu/AI-ENABLED-HEALTHCARE-CHATBOT/assets/94154531/79a33dea-426a-4186-a344-db84bac34cc8)
+
+Figure 06 Login page
+User have to login to the web application/Register(If account not created)
+ ![image](https://github.com/Lutheeshgoparapu/AI-ENABLED-HEALTHCARE-CHATBOT/assets/94154531/b6c26315-de4a-4bee-b250-e744fc3db1e9)
+
+Figure 07 Chat page
+After login to the web application ,The chat option will be enabled .The user can interact with the web chatbot and ask the questions. Like shown below it ask’s for 
+1.Predict symptoms (enter the disease name)
+2.Check the Disease symptoms (User must choose the option)
+
+ ![image](https://github.com/Lutheeshgoparapu/AI-ENABLED-HEALTHCARE-CHATBOT/assets/94154531/15c86fc6-5857-49b5-bf45-1957c7bac2e2)
+
+Figure 08 Symptoms List
+This is the symptoms box which User have to choose
+ ![image](https://github.com/Lutheeshgoparapu/AI-ENABLED-HEALTHCARE-CHATBOT/assets/94154531/e71b519f-a2ee-48df-9ddd-fc7a5e218fe4)
+
+ Figure 09 AI predicted the disease suggesting  the  nearby hospital
+In this image the AI predicted the disease which the user is suffering for and suggesting the nearby hospital
+
+
+![image](https://github.com/Lutheeshgoparapu/AI-ENABLED-HEALTHCARE-CHATBOT/assets/94154531/173c6feb-8645-4e58-8605-62dd26a9abec)
+
+
+ figure 10 AI Suggesting the nearby hospital
+AI directly opens the browser and searches for the nearby hospital which is realted to users disease
+
+
+
+
+ ![image](https://github.com/Lutheeshgoparapu/AI-ENABLED-HEALTHCARE-CHATBOT/assets/94154531/a202b5fc-4c15-48e6-9c9f-811fee4172ce)
+
+Figure 11 BMI checking
+In the web application the user can also check for the BMI(Body mass Index) to check the users physical codition
+
 
 
 ## VALIDATION:
