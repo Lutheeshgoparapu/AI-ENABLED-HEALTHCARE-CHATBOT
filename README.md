@@ -90,6 +90,7 @@ After login to the web application ,The chat option will be enabled .The user ca
 
 #### Figure 08 Symptoms List
 This is the symptoms box which User have to choose
+
  ![image](https://github.com/Lutheeshgoparapu/AI-ENABLED-HEALTHCARE-CHATBOT/assets/94154531/e71b519f-a2ee-48df-9ddd-fc7a5e218fe4)
 
 #### Figure 09 AI predicted the disease suggesting  the  nearby hospital
