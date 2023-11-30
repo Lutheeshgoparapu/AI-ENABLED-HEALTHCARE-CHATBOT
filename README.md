@@ -54,6 +54,7 @@ AI chatbots can assist in monitoring patients with chronic conditions by collect
 ![image](https://github.com/Lutheeshgoparapu/AI-ENABLED-HEALTHCARE-CHATBOT/assets/94154531/a113531f-ff09-4cd8-a7c2-29d5fff554b1)
 
 
+
 ## IMPLEMENTATION:
 This Flask web application predicts diseases based on user-provided symptoms.
 
@@ -73,6 +74,7 @@ This Flask web application predicts diseases based on user-provided symptoms.
 ![image](https://github.com/Lutheeshgoparapu/AI-ENABLED-HEALTHCARE-CHATBOT/assets/94154531/dcba75f4-bb75-4b37-a861-9e0e3d3f0544)
 ### ACCURACY:
 ![image](https://github.com/Lutheeshgoparapu/AI-ENABLED-HEALTHCARE-CHATBOT/assets/94154531/76a5c707-a9c1-47de-9e61-cd2d58145ec1)
+
 
 ## CONCLUSION:
 The main aim of the project AI Based Healthcare chatbot system using Natural Language Processing, which is easy to use and more secure than the current system it will cure the diseases and helps to maintain proper health in the current system. This system reduces the possibility of diseases. The information is processed and store in the database, then it is reverted to the user. Also, it provides an accurate information about the heath symptoms and medicines to the patients. The government will also keep the track of the medicines supplied to the medicals and hospitals. By using diagnosis software, the results are generated accurate and fast. For end users it became easy to gain access in healthcare website and explore different types of services. After using such web-based applications, the results of healthcare were affected in different countries and rate of mortality was steadily decreased. With the help of this natural language processing the proposed system can help the government organizations and hospitals also help in the development of the country. Thus, we successfully build up a system for hospitals and medical institute so that user can ask their queries with the medical assistant and book the doctor’s appointment by giving text messages.
@@ -177,10 +179,7 @@ all_result = {
     'symptoms':[]
 }
 
-```
-### Import Dependencies
-### import gradio as gr
-```
+
 import pandas as pd
 import numpy as np
 from joblib import load
@@ -188,23 +187,14 @@ import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 
 def predict_symptom(user_input, symptom_list):
-```
-### Convert user input to lowercase and split into tokens
-```
-user_input_tokens = user_input.lower().replace("_"," ").split()
-```
 
-### Calculate cosine similarity between user input and each symptom
-```
+user_input_tokens = user_input.lower().replace("_"," ").split()
+
     similarity_scores = []
     for symptom in symptom_list:
-```
-### Convert symptom to lowercase and split into tokens
-```
+
         symptom_tokens = symptom.lower().replace("_"," ").split()
-```
-### Create count vectors for user input and symptom:
-```
+
         count_vector = np.zeros((2, len(set(user_input_tokens + symptom_tokens))))
         for i, token in enumerate(set(user_input_tokens + symptom_tokens)):
             count_vector[0][i] = user_input_tokens.count(token)
